@@ -18,7 +18,81 @@ Fundamentals Exercise 1: CLI
          b. Use $ cat print contents of file
          c. Use $ grep to search for a word inside file
 
-Example Output (pwd):
-    1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
-       /Users/cadenmackenzie/Documents/CodingNomads
+Output:
+
+    1. λ pwd
+       C:\Development\Java_Training\CodingNomads
+
+    2. C:\Development\Java_Training\CodingNomads
+       λ mkdir Terminal_testing
+
+       C:\Development\Java_Training\CodingNomads
+       λ ls
+       labs/  projects/  resources/  Terminal_testing/
+
+    3.a C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ touch new1.txt new2.txt new3.txt
+
+      b C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ pwd
+        C:\Development\Java_Training\CodingNomads\Terminal_testing
+
+      c C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ ls
+        new1.txt  new2.txt  new3.txt
+
+    5  C:\Development\Java_Training\CodingNomads\Terminal_testing
+       λ mkdir new_folder
+
+    6 C:\Development\Java_Training\CodingNomads\Terminal_testing
+      λ cp new1.txt new_folder
+
+      C:\Development\Java_Training\CodingNomads\Terminal_testing
+      λ cd new_folder\
+
+      C:\Development\Java_Training\CodingNomads\Terminal_testing\new_folder
+      λ ls
+      new1.txt
+
+    7 C:\Development\Java_Training\CodingNomads\Terminal_testing
+      λ mv new3.txt  new_folder\
+
+      C:\Development\Java_Training\CodingNomads\Terminal_testing
+      λ ls new_folder\
+      new1.txt  new3.txt
+
+    8 a C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ ls
+        new_folder/  new1.txt  new2.txt
+
+        C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ rm new2.txt
+
+        C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ ls
+        new_folder/  new1.txt
+
+       b C:\Development\Java_Training\CodingNomads\Terminal_testing
+         λ ls
+         new_folder/  new1.txt
+
+         C:\Development\Java_Training\CodingNomads\Terminal_testing
+         λ rm -r new_folder\
+
+         C:\Development\Java_Training\CodingNomads\Terminal_testing
+         λ ls
+         new1.txt
+
+    9 a and b C:\Development\Java_Training\CodingNomads\Terminal_testing
+              λ vim new1.txt
+
+              C:\Development\Java_Training\CodingNomads\Terminal_testing
+              λ cat new1.txt
+              wrote some text in this file using vim tool
+
+      c C:\Development\Java_Training\CodingNomads\Terminal_testing
+        λ grep 'wrote' new1.txt
+        wrote some text in this file using vim tool
+
+
 
