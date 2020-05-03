@@ -25,5 +25,14 @@ public class Exercise_07 {
 
         // write completed code here
 
+        int dayToSeconds = convertDayInSeconds(days);
+        System.out.println(dayToSeconds);
+
+
+    }
+    public static int convertDayInSeconds(int day){
+        // 1 day = 86,400 sec
+        int inSeconds = day * 86400;
+        return inSeconds;
     }
 }

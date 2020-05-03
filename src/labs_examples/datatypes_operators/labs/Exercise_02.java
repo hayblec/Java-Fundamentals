@@ -25,5 +25,15 @@ public class Exercise_02 {
 
         // write code here
 
+        //Widening:
+        int intNumber = 10;
+        double doubleNumber = intNumber;
+        System.out.println(doubleNumber);
+
+        //Narrowing (with casting):
+        double doubleNumber2 = 10.5;
+        int intNumber2 = (int)doubleNumber2;
+        System.out.println(intNumber2);
+
     }
 }
