@@ -22,5 +22,22 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
+        int numberOfRows = 10;
+        int numberOfColumn = 10;
+
+        for (int addRows = 1; addRows <= numberOfRows; addRows++) {
+            System.out.format("%4d |",addRows);
+
+            for (int addColumn = 2; addColumn <= numberOfColumn; addColumn++) {
+                int multiply = addColumn * addRows;
+                System.out.format("%4d |", multiply );
+            }
+            System.out.println();
+
+
+        }
+    }
+
 
 }
