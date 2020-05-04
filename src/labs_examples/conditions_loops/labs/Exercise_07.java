@@ -23,6 +23,7 @@ public class Exercise_07 {
 
         System.out.println("Enter a string: ");
         String input = scanner.nextLine();
+        input = input.toLowerCase();
         int counter = 0;
 
         while (input.length() > counter) {
@@ -34,7 +35,9 @@ public class Exercise_07 {
                 System.out.println(input + " has the vowel " + character);
                 break;
             }
+
             counter++;
+
         }
 
 
