@@ -28,6 +28,7 @@ public class Exercise_07 {
 
         while (input.length() > counter) {
 
+            //FEEDBACK: very nice!
             char character = input.charAt(counter);
             int found = vowels.indexOf(character);
 
@@ -43,3 +44,5 @@ public class Exercise_07 {
 
     }
 }
+
+//FEEDBACK: just need to clean up the spaces for it to be perfect :)

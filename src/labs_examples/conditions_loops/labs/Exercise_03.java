@@ -20,9 +20,11 @@ public class Exercise_03 {
         int month = scanner.nextInt();
         String monthName;
 
+        //FEEDBACK: typically I'd "tab" the "break" statements each two tabs to the right
         switch (month){
             case 1: monthName = "January";
-            break;
+                    // FEEDBACK: example
+                    break;
             case 2: monthName = "February";
             break;
             case 3: monthName = "March";
