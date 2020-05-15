@@ -34,6 +34,5 @@ public class Exercise_02 {
         double doubleNumber2 = 10.5;
         int intNumber2 = (int)doubleNumber2;
         System.out.println(intNumber2);
-
     }
 }

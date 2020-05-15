@@ -23,10 +23,8 @@ public class Exercise_10 {
             if (input == 0) {
                 break;
             }
-
             double powerOfTwo = Math.pow(input, 2);
             System.out.println(powerOfTwo);
         }
-
     }
 }

@@ -12,16 +12,12 @@ import java.util.Scanner;
 public class Exercise_04 {
     public static void main(String[] args) {
 
-        for (int i = 1; i <=100; i++){
-            if(i % 2 == 0){
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
-
         }
-
     }
-
-
 }
 
 // FEEDBACK: I'd clean up all the empty spaces between the curly brackets

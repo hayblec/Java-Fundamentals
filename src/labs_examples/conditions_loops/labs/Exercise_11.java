@@ -35,10 +35,6 @@ public class Exercise_11 {
                 System.out.format("%4d |", multiply );
             }
             System.out.println();
-
-
         }
     }
-
-
 }

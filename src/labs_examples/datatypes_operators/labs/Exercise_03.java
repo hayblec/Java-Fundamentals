@@ -16,8 +16,5 @@ class ArithmeticOperators {
         int multiplication = 5 * 5;
         int division = 25 / 5;
         int modulus = 25 % 5;
-
-
     }
-
 }

@@ -26,31 +26,30 @@ public class Exercise_03 {
                     // FEEDBACK: example
                     break;
             case 2: monthName = "February";
-            break;
+                    break;
             case 3: monthName = "March";
-            break;
+                    break;
             case 4: monthName = "April";
-            break;
+                    break;
             case 5: monthName = "May";
-            break;
+                    break;
             case 6: monthName = "June";
-            break;
+                    break;
             case 7: monthName = "July";
-            break;
+                    break;
             case 8: monthName = "August";
-            break;
+                    break;
             case 9: monthName = "September";
-            break;
+                    break;
             case 10: monthName = "October";
-            break;
+                    break;
             case 11: monthName = "November";
-            break;
+                    break;
             case 12: monthName = "December";
-            break;
+                    break;
             default: monthName = "Impossible. Except you are from different timeline";
-            break;
+                    break;
         }
         System.out.println("You entered " + month + " which is " + monthName);
     }
-
 }

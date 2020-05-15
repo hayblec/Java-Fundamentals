@@ -13,7 +13,7 @@ public class Exercise_06 {
     //FEEDBACK: Nice use of PI - that said, we can also use: Math.PI just FYI to grab that value from the Math class
     // also, nice that you made it capitalized, which typically means the variable is "final" the only thing your missing
     // is the "final" keyword in the variable declaration - meaning it cannot be changed.
-    static double PI = 3.14159265359;
+    static final double PI = Math.PI; //3.14159265359
 
     public static void main(String[] args) {
 
@@ -26,7 +26,6 @@ public class Exercise_06 {
 
         double cylinderArea = calculateAreaOfCylinder(radius, height);
         System.out.println("Area of cylinder: " + cylinderArea);
-
     }
 
     public static double calculateVolumeOfCylinder(double radius, double height){

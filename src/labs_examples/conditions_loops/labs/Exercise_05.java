@@ -40,6 +40,5 @@ public class Exercise_05 {
         System.out.println("The sum is: " + sum);
         average = sum/count;
         System.out.println("The average is: " + average);
-
     }
 }

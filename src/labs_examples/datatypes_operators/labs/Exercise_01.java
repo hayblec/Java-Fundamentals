@@ -32,9 +32,6 @@ public class Exercise_01 {
         System.out.println(doubleNumber);
         System.out.println(floatNumber);
         System.out.println(charVar);
-
-
-
     }
 }
 

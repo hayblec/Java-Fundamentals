@@ -33,8 +33,6 @@ class LogicalOperators {
         if(a != b){
             System.out.println("a NOT equal to b is false");
         }
-
     }
-
 }
 
