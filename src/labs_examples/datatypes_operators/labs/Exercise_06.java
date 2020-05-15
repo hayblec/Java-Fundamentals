@@ -9,6 +9,10 @@ package labs_examples.datatypes_operators.labs;
  */
 
 public class Exercise_06 {
+
+    //FEEDBACK: Nice use of PI - that said, we can also use: Math.PI just FYI to grab that value from the Math class
+    // also, nice that you made it capitalized, which typically means the variable is "final" the only thing your missing
+    // is the "final" keyword in the variable declaration - meaning it cannot be changed.
     static double PI = 3.14159265359;
 
     public static void main(String[] args) {

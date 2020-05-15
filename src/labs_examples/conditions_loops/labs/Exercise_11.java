@@ -31,6 +31,7 @@ public class Exercise_11 {
 
             for (int addColumn = 2; addColumn <= numberOfColumn; addColumn++) {
                 int multiply = addColumn * addRows;
+                // FEEDBACK: very nice :)
                 System.out.format("%4d |", multiply );
             }
             System.out.println();
